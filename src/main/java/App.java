@@ -10,7 +10,8 @@ public class App {
     	Car a = new Car("{engine}","{wheels}");
     	System.out.println(a.start());
     	
-    	
+    	SportsCar b = new SportsCar ("{engine}","{wheels}","{lights}");
+    	System.out.println(b.start());
         //System.out.println(new App().getGreeting());
     }
 }
