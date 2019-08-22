@@ -10,7 +10,12 @@ public class SportsCar extends Car{
 	
 	public String start() {
 		//"{lights} are shining, {engine} is on and {wheels} are running!"
-		return (this.lights + "are shining, " + super.engine + " is on and " + super.wheels + " are running!");
+		return (lights + " are shining, " + engine + " is on and " + wheels + " are running!");
+	}
+	
+	public String speedOn() {
+		//"{engine} is overload and {wheels} are super running!"
+		return (engine + " is overload and " + wheels + " are super running!");
 	}
 
 }

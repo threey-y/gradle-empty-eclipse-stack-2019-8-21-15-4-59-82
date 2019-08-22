@@ -12,6 +12,9 @@ public class App {
     	
     	SportsCar b = new SportsCar ("{engine}","{wheels}","{lights}");
     	System.out.println(b.start());
+    	System.out.println(b.speedOn());
+    	
+    	
         //System.out.println(new App().getGreeting());
     }
 }
