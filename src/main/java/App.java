@@ -14,7 +14,9 @@ public class App {
     	System.out.println(b.start());
     	System.out.println(b.speedOn());
     	
-    	
+    	Truck c = new Truck ("{engine}","{wheels}","{payload}");
+    	System.out.println(c.start());
+    	System.out.println(c.load());
         //System.out.println(new App().getGreeting());
     }
 }
